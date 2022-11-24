@@ -40,4 +40,4 @@ df["flair_misc"] = df["flair_tags"].apply(
 df.drop(columns=["flair_tags"], inplace=True)
 
 # save the dataframe to a csv file
-df.to_csv("22_10_22_hls_people_hist_hub_flair.csv", sep=";", index=False)
+df.to_csv("/output/22_10_22_hls_people_hist_hub_flair.csv", sep=";", index=False)
